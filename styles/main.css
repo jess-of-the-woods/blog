@@ -4,8 +4,9 @@ body {
 
 h1 {
   color: #e5ccff;
-  background: #008000;
+  background: #408000;
   padding: 0;
+  width: 750px;
   margin: 20px 25px;
 }
 
@@ -14,21 +15,44 @@ h2 {
 }
 
 p {
-  margin: 20px;
+  margin: 20px 35px;
 }
 
-a {
-  color: green;
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+a:link {
   border: 3px solid gray;
   padding: 5px;
   margin: 30px 30px;
-  border-color: green;
-  background: #e1e1d1;
+  background: #dfbf9f;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
 }
+
+a:hover {
+  background: #bf8040;
+}
+
+a:active {
+  color: #000000;
+  background: #999999;
+  border-color: #000000;
+}
+
 
 ul li a {
   display: inline-block;
-  padding: 2px;
-  margin: 10px 10px;
+  padding: 5px;
+  margin: 15px 20px;
+  border-radius: 10px;
 
+}
+
+.right {
+  text-align: right;
+  margin-right: 70px;
 }
