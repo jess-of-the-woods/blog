@@ -1,6 +1,10 @@
+body {
+  background: #ccccb2;
+}
+
 h1 {
-  color: white;
-  background: #999;
+  color: #e5ccff;
+  background: #008000;
   padding: 0;
   margin: 20px 25px;
 }
@@ -19,6 +23,7 @@ a {
   padding: 5px;
   margin: 30px 30px;
   border-color: green;
+  background: #e1e1d1;
 }
 
 ul li a {
