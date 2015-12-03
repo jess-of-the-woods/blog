@@ -1,5 +1,7 @@
 body {
-  background: #809669;
+  /*background: #809669; */
+  background: #587043;
+
 }
 
 div {
@@ -12,7 +14,7 @@ div {
   
 h1 {
   color: #D8DED4;
-  background: #58654D;
+  background: #4B5331;
   padding: 10px;
   margin: 0;
 }
@@ -32,18 +34,18 @@ ul {
   list-style-position: inside;
 }
 
+a {
+  color: #23232A;
+}
+
 a:link {
-  border: 3px solid gray;
-  padding: 5px;
-  margin: 30px 30px;
-  background: #dfbf9f;
-  border-radius: 10px;
   text-decoration: none;
-  font-weight: bold;
+  color: #3A3A45;
 }
 
 a:hover {
-  background: #bf8040;
+  background: #74748B;
+  color: #3A3A45;
 }
 
 a:active {
@@ -52,17 +54,30 @@ a:active {
   border-color: #000000;
 }
 
+p a {
+  color: #E3E3E8;
+  font-weight: bold;
+}
 
 ul li a {
+  color: #423324;
   display: inline-block;
+  background-color: #999999;
   text-align: center;
-  padding: 5px;
+  padding: 8px;
   margin: 15px 20px;
-  border-radius: 10px;
-
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .EDA {
   text-align: right;
   margin-right: 70px;
+}
+
+.home {
+  margin: 15px 50px;
+  padding: 5px;
+  font-weight: bold;
+
 }
