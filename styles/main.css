@@ -1,12 +1,14 @@
 body {
   /*background: #809669; */
-  background: #587043;
+  background-image: url("../img/linen_fabric_background_01_hd_picture_169828.jpg");
+  /*background: #587043;*/
 
 }
 
 div {
-  background-color: #606060;
+  background-color: #4D4D4D;
   width: 70%;
+  margin-top: 1%;
   margin-left: 10%; 
   margin-right: 15%;
   position: absolute;
