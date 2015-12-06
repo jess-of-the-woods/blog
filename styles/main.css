@@ -45,9 +45,9 @@ ul {
   list-style-position: inside;
 }
 
-a {
+/*a {
   color: #23232A;
-}
+}*/
 
 a:link {
   text-decoration: none;
