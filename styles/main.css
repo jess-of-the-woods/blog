@@ -6,12 +6,21 @@ body {
 }
 
 div {
-  background-color: #4D4D4D;
+  /*background-color: #4D4D4D;*/
+  background-image: url("../img/slate_bkgrnd_1280px.jpg");
   width: 70%;
   margin-top: 1%;
   margin-left: 10%; 
   margin-right: 15%;
   position: absolute;
+}
+
+#maindiv {
+  border: 20px solid transparent;
+    padding: 10px;
+    -webkit-border-image: url("../img/dark-wood.jpg") 30 round; /* Safari 3.1-5 */
+    -o-border-image: url("../img/dark-wood.jpg") 30 round; /* Opera 11-12.1 */
+    border-image: url("../img/dark-wood.jpg") 40 round;
 }
   
 h1 {
@@ -79,6 +88,7 @@ ul li a {
 
 .home {
   margin: 15px 50px;
+  color: #D8DED4;
   padding: 5px;
   font-weight: bold;
 
