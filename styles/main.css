@@ -48,9 +48,9 @@ ul {
   list-style-position: inside;
 }
 
-a:link {
+a:link { /*unvisited*/
   text-decoration: none;
-  color: #3A3A45;
+  color: #E2E6DB;
 }
 
 a:hover {
