@@ -1,14 +1,10 @@
 body {
-  /*background: #809669; */
   background-image: url("../img/linen_fabric_background_01_hd_picture_169828.jpg");
   font-family: "Verdana";
   font-size: 120%;
-  /*background: #587043;*/
-
 }
 
 div {
-  /*background-color: #4D4D4D;*/
   background-image: url("../img/slate_bkgrnd_1280px.jpg");
   width: 70%;
   margin-top: 1%;
@@ -20,15 +16,12 @@ div {
 #maindiv {
   border: 20px solid #4D4D4D;
     padding: 10px;
-    /*-webkit-border-image: url("../img/dark-wood.jpg") 30 round; 
-    -o-border-image: url("../img/dark-wood.jpg") 30 round; 
-    border-image: url("../img/dark-wood.jpg") 40 round;*/
-    
 }
   
 h1 {
   color: #D8DED4;
   background: #4B5331;
+  opacity: 0.7;
   padding: 10px;
   margin: 0;
 }
