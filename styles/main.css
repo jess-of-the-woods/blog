@@ -1,3 +1,8 @@
+* {
+  color: #e0e0e0;
+
+}
+
 body {
   background-image: url("../img/linen_fabric_background_01_hd_picture_169828.jpg");
   font-family: "Verdana";
@@ -6,83 +11,86 @@ body {
 
 #maindiv {
   background-image: url("../img/slate_bkgrnd_1280px.jpg");
-  width: 70%;
+  width: 80%;
   margin: 1.5% 10% 5% 10%;
   position: absolute;
-  border: 10px solid #4d4d4d; /*dark grey*/
+  border: 10px solid #4d4d4d;       /*dark grey*/
   padding: 10px;
 }
   
-h1 {
-  background: #4b5331;  /*olive/khaki*/
-  color: #d8ded4;       /*very light green*/
-  margin: 0;
+header {
+  background: #4b5331;            /*olive/khaki*/
+  color: #d8ded4;                 /*very light green*/
+  margin: 3;
   opacity: .7;
-  padding: 10px;
+  padding-top: .75px;
+  padding-bottom: .75px;
 }
 
 h2 {
   margin-left: 30px;
-  color: #E0E0E0; /*very light gray*/
+  color: #e0e0e0;                   /*very light gray*/
 }
 
 h3 {
   margin-left: 30px;
-  color: #E0E0E0; /*very light gray*/
+  color: #e0e0e0;                   /*very light gray*/
 }
 
 p {
   margin: 35px 35px;
-  color: #e0e0e0;  /*very light gray*/
+  color: #e0e0e0;                    /*very light gray*/
 }
 
-ul {
-  list-style-type: none;
-  list-style-position: inside;
-}
 
-a:link {        /*unvisited*/
+a:link {                            /*unvisited links*/
   text-decoration: none;
-  color: #E2E6DB; /*very light green*/
+  color: #E2E6DB;                   /*very light green*/
 }
 
 a:hover {
-  background: #74748B; /*medium grey/purple*/
-  color: #3A3A45; /*black*/
+  background: #74748B;               /*medium grey/purple*/
+  color: #3A3A45;                    /*black*/
+  opacity: .5;
 }
 
 a:active {                 /*links as you're clicking them*/
   color: #000000;          /*black*/ 
-  background: #999999;     /*light/medium gray*/
+  background: #999999;     /*light / medium grey*/
   border-color: #000000;   /*black*/
 }
 
 p a {                       /*links within paragraphs*/
-  color: #e3e3e8;           /*light gray*/
+  color: #e3e3e8;           /*light grey*/
   font-weight: bold;
 }
 
-nav ul li a {
-  color: #423324; /*dark brown*/
+nav ul {                             /*Unordered list in navigation pane(index page)*/
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+nav ul li a {                         /*Navigation links on index page*/
+  color: #423324;                     /*dark brown*/
   display: inline-block;
-  background-color: #999999; /*light/medium gray*/
+  background-color: #999999;          /*light/medium grey*/
   text-align: center;
   padding: 8px;
   margin: 15px 20px;
   border-radius: 5px;
   text-decoration: none;
+  opacity: .75;
 }
 
-.EDA {
+#EDA {                                /*Enspiral Dev Academy text on index page*/
   text-align: right;
   margin-right: 70px;
   font-size: 120%;
 }
 
-.home {
+#home {                               /*Home Button*/
   margin: 15px 50px;
-  color: #D8DED4; /*very light green*/
+  color: #D8DED4;                     /*very light green*/
   padding: 5px;
   font-weight: bold;
-
 }
