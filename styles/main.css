@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("../img/linen_fabric_background_01_hd_picture_169828.jpg");
+  background-image: url("../img/linen_bkgrnd.jpg");
   font-family: "Verdana";
   font-size: 120%;
 }
@@ -59,7 +59,7 @@ nav ul {                             /*Unordered list in navigation pane(index p
   margin: 15px 20px;
   border-radius: 5px;
   text-decoration: none;
-  opacity: .65;
+  opacity: .8;
 }
 
 a:link {                            /*unvisited links*/
