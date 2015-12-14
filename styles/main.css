@@ -31,12 +31,12 @@ header h1 {
 }
 
 h2, h3 {
-  margin-left: 30px;
+  margin-left: 2%;
   color: #e0e0e0;                   /*very light gray*/
 }
 
 p {
-  margin: 35px 35px;
+  margin: 1.5% 3%;
   color: #e0e0e0;                    /*very light gray*/
 }
 
@@ -55,8 +55,8 @@ nav ul {                             /*Unordered list in navigation pane(index p
   display: inline-block;
   background-color: #999999;          /*light/medium grey*/
   text-align: center;
-  padding: 8px;
-  margin: 15px 20px;
+  padding: .6%;
+  margin: 1% 1.4%;
   border-radius: 5px;
   text-decoration: none;
   opacity: .8;
@@ -82,12 +82,12 @@ a:active {                 /*links as you're clicking them*/
 #EDA {                                /*Enspiral Dev Academy text on index page*/
   color: #adb89a;
   text-align: right;
-  margin-right: 70px;
+  margin: 0 10% 4% 0;
   font-size: 120%;
 }
 
 #home {                               /*Home Button*/
-  margin: 15px 50px;
+  margin: 3% 5%;
   color: #D8DED4;                     /*very light green*/
   padding: 5px;
   font-weight: bold;
