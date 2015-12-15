@@ -4,13 +4,13 @@
 }
 
 body {
-  background-image: url("../img/linen_bkgrnd.jpg");
+  background-image: url("../images/linen_bkgrnd.jpg");
   font-family: "Verdana";
   font-size: 120%;
 }
 
 #maindiv {
-  background-image: url("../img/slate_bkgrnd_1280px.jpg");
+  background-image: url("../images/slate_bkgrnd_1280px.jpg");
   width: 80%;
   margin: 1.5% 10% 5% 10%;
   position: absolute;
