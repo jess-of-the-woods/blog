@@ -1,28 +1,42 @@
-.header {
+body {
+  background-image: url("../images/linen_bkgrnd.jpg");
+}
 
+header h1 {
+  background: #4b5331;            /*olive/khaki*/
+  color: #adb89a;                 /*very light green*/
+  margin: 3px;
+  opacity: .75;
+  padding: 12px 1px 12px 12px;
 }
 
 img {
-  float: right;
   border: 3px gray solid;
-  margin: 0 5% 0 0;
+  margin-right: 10px;
   width: 13%;
   height: 19%
 }
 
-div {
-  clear: left;
+p {
+  color: #e0e0e0;
+  margin: 1.5% 3%;
 }
 
-.nav {
-  float: left;
-  margin: 0 0 0 10px;
+p a {                       /*links within paragraphs*/
+  color: #e3e3e8;           /*light grey*/
+  font-weight: bold;
 }
 
 h3 {
   color: #999999;
+  margin: 0 0 2% 3%;
+  /*float: right;*/
 }
 
-#maindiv {
-  
+.maindiv {
+    background-image: url("../images/slate_bkgrnd_1280px.jpg");
+    margin: 1.5% 10% 5% 10%;
+    /*position: absolute; */
+    border: 10px solid #4d4d4d;       /*dark grey*/
+    padding: 10px;
 }
