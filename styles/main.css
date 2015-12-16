@@ -2,11 +2,27 @@
 
 }
 
-.img {
+img {
+  float: right;
+  border: 3px gray solid;
+  margin: 0 5% 0 0;
   width: 13%;
   height: 19%
 }
 
+div {
+  clear: left;
+}
+
 .nav {
+  float: left;
+  margin: 0 0 0 10px;
+}
+
+h3 {
+  color: #999999;
+}
+
+#maindiv {
   
 }
