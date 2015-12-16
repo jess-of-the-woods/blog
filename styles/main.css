@@ -7,7 +7,7 @@ header h1 {
   color: #adb89a;                 /*very light green*/
   margin: 3px;
   opacity: .75;
-  padding: 12px 1px 12px 12px;
+  padding: 12px 1px 12px 15px;
 }
 
 img {
@@ -19,7 +19,7 @@ img {
 
 p {
   color: #e0e0e0;
-  margin: 1.5% 3%;
+  margin: 1.5% 5%;
 }
 
 p a {                       /*links within paragraphs*/
@@ -27,7 +27,7 @@ p a {                       /*links within paragraphs*/
   font-weight: bold;
 }
 
-h3 {
+h3, h4 {
   color: #999999;
   margin: 0 0 2% 3%;
   /*float: right;*/
@@ -39,4 +39,14 @@ h3 {
     /*position: absolute; */
     border: 10px solid #4d4d4d;       /*dark grey*/
     padding: 10px;
+}
+
+.nav {
+  margin: 2% 0 6% 7%;
+}
+
+button {
+  color: #E2E6DB;
+  background: #74748B;
+  opacity: .8;
 }
