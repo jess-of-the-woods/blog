@@ -1,36 +1,7 @@
+
+
 body {
   background-image: url("../images/linen_bkgrnd.jpg");
-}
-
-header h1 {
-  background: #4b5331;            /*olive/khaki*/
-  color: #adb89a;                 /*very light green*/
-  margin: 3px;
-  opacity: .75;
-  padding: 12px 1px 12px 15px;
-}
-
-img {
-  border: 3px gray solid;
-  margin-right: 10px;
-  width: 13%;
-  height: 19%
-}
-
-p {
-  color: #e0e0e0;
-  margin: 1.5% 5%;
-}
-
-p a {                       /*links within paragraphs*/
-  color: #e3e3e8;           /*light grey*/
-  font-weight: bold;
-}
-
-h3, h4 {
-  color: #999999;
-  margin: 0 0 2% 3%;
-  /*float: right;*/
 }
 
 .maindiv {
@@ -41,12 +12,74 @@ h3, h4 {
     padding: 10px;
 }
 
+header h1 {
+  color: #adb89a;                 /*very light green*/
+  margin: 10px 3px 0 3px;
+  opacity: .8;
+  padding: 12px 1px 12px 15px;
+}
+
+.grad {
+background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.9)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.9)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.9)); /*Fx 3.6-15*/
+  background: linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.9)); /*Standard*/
+} 
+/*img {
+  border: 3px gray solid;
+  margin-right: 10px;
+  width: 13%;
+  height: 19%
+}*/
+
+p {
+  color: #e0e0e0;
+  margin: 1.5% 5%;
+}
+
+h3, h4 {
+  color: #999999;
+  margin: 0 0 2% 3%;
+  /*float: right;*/
+}
+
+button {
+  color: #c79588;
+  background: #072f39;  /*medium grey/purple*/
+  opacity: .8;
+}
+
 .nav {
   margin: 2% 0 6% 7%;
 }
 
-button {
-  color: #E2E6DB;
-  background: #74748B;
-  opacity: .8;
+a {
+  color: #b9b9b9;
 }
+
+a:hover {
+  color: #c79588;                    /*peach*/
+  background: #74748B;               /*medium grey/purple*/
+  opacity: .7;
+}
+
+a:active {                 /*links as you're clicking them*/
+  color: #000000;          /*black*/ 
+  background: #999999;     /*light / medium grey*/
+  border-color: #000000;   /*black*/
+}
+
+p a {                       /*links within paragraphs*/
+  color: #e3e3e8;           /*light grey*/
+  font-weight: bold;
+}
+
+#home a {                   /*home button*/
+  background: #323232;
+  opacity: .9;
+  border: 2px gray solid;
+  padding: 5px;
+  margin: 3px 0 9px 9px;
+}
+
