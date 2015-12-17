@@ -21,6 +21,10 @@ header h1 {
   padding: 12px 1px 12px 15px;
 }
 
+header h3 {
+  margin: 1% 1% 0 0;
+}
+
 .grad {
   background: red; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.97)); /*Safari 5.1-6*/
@@ -37,8 +41,9 @@ header h1 {
 }*/
 
 p {
-  color: #e0e0e0;
+  color: #dcdcdc;
   margin: 1.5% 5%;
+  font-size: 1.4em;
 }
 
 h3, h4 {
