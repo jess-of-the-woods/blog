@@ -5,8 +5,10 @@ body {
 }
 
 .maindiv {
-    background-image: url("../images/slate_bkgrnd_1280px.jpg");
-    margin: 1.5% 10% 5% 10%;
+    background-image: url("../images/slate_bkgrnd_1280x905.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2.5% 15% 5% 10%;
     /*position: absolute; */
     border: 10px solid #4d4d4d;       /*dark grey*/
     padding: 10px;
@@ -20,12 +22,13 @@ header h1 {
 }
 
 .grad {
-background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.9)); /*Safari 5.1-6*/
-  background: -o-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.9)); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.9)); /*Fx 3.6-15*/
-  background: linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.9)); /*Standard*/
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.97)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.97)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.97)); /*Fx 3.6-15*/
+  background: linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Standard*/
 } 
+
 /*img {
   border: 3px gray solid;
   margin-right: 10px;
