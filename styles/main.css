@@ -3,15 +3,16 @@ body {
 }
 
 .maindiv {
-    background-image: url("../images/slate_bkgrnd_1280x905.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 2.5% 2.5% 2.5% 2.5%;
-    /*position: absolute; */
-    border: 10px solid #4d4d4d;       /*dark grey*/
-    padding: 10px;
+  position: absolute;
+  min-width: 90%;
+  background-image: url("../images/slate_bkgrnd_1280x905.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2.5% 2.5% 2.5% 2.5%;
+  border: 10px solid #4d4d4d;       /*dark grey*/
+  padding: 2%;
 }
-
+           /* ------   Heading section ------   */
 .grad {
   background: -webkit-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.97)); /*Safari 5.1-6*/
   background: -o-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.97)); /*Opera 11.1-12*/
@@ -21,7 +22,7 @@ body {
 
 header h1 {
   color: #adb89a;                 /*very light green*/
-  margin: 10px 3px 0 3px;
+  margin: 10px 3px 2px 2px;
   opacity: .8;
   padding: 12px 1px 12px 15px;
 }
@@ -30,29 +31,61 @@ header h3 {
   margin: 1% 2.5% 0 0;
 }
 
-#nav {
-  margin: 2% 0 6% 9%;
-  width: 80%;
+.navpic{
+  clear: both;
+  display: inline;
 }
 
-.buttons {
-  height: 20px;
-  width: 10px;  
-  background: #999999;
+        /*  --------  links   ---------    */
+        /* --------              --------- */
+
+a {
+  color: #b9b9b9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d4d4db;              /*light purple*/
+  background: #505060;       /*medium grey/purple*/
   opacity: .7;
 }
 
-.profilepic {
-  float: right;
-  /*clear: both;*/
-  border: 3px gray solid;
-  width: 65%;
-  margin: 4% 5% 4% 2%;
-  opacity: .85;
+a:active {                 /*links as you're clicking them*/
+  color: #000000;          /*black*/ 
+  background: #999999;     /*light / medium grey*/
+  border-color: #000000;   /*black*/
 }
 
-#nav, .profilepic {
-display: inline-block;
+.nav {
+  margin: 7% 2% 4% 8%;
+  width: 80%;
+  position: relative;
+  float: left;
+}
+
+.nav a {
+  width: 75%;
+  height: 7%;
+  color: #c79588;
+  background-color: #59596b;
+  font-size: 1.4em;
+  text-align: center;
+  opacity: .8;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 1% 0 1% 0;
+}
+
+.profilepic {
+  position: relative;
+  float: right;
+  border: 3px gray solid;
+  margin: 4% 5% 4% 2%;
+  opacity: .87;
+}
+
+.blog-nav {
+  margin: 4% 0 4% 4%;
 }
 
 p {
@@ -67,28 +100,11 @@ h3, h4 {
   /*float: right;*/
 }
 
-button {
+/*button {
   color: #c79588;
   background: #072f39;  /*medium grey/purple*/
-  opacity: .8;
-}
-
-a {
-  color: #b9b9b9;
-
-}
-
-a:hover {
-  color: #c79588;                    /*peach*/
-  background: #74748B;               /*medium grey/purple*/
-  opacity: .7;
-}
-
-a:active {                 /*links as you're clicking them*/
-  color: #000000;          /*black*/ 
-  background: #999999;     /*light / medium grey*/
-  border-color: #000000;   /*black*/
-}
+/*  opacity: .8; 
+} */
 
 p a {                       /*links within paragraphs*/
   color: #e3e3e8;           /*light grey*/
@@ -99,16 +115,20 @@ p a {                       /*links within paragraphs*/
   background: #323232;
   opacity: .9;
   border: 2px gray solid;
-  padding: 5px;
+  padding: 7px;
   margin: 3px 0 9px 9px;
 }
+
+          /* --------media queries --------- */
+          /* --------              --------- */
 
 @media (min-width: 650px) {
   .maindiv {
     margin: 2.5 3% 2.5% 3%;
+    min-height: 80%;
   }
 
-  #nav {
+  .nav {
     width: 50%;
   }
 
@@ -117,8 +137,14 @@ p a {                       /*links within paragraphs*/
   }
 }
 
-@media (min-width: 1500px) {
-  #nav {
-    width: 70%;
+@media (min-width: 1100px) {
+
+  .nav {
+    width: 40%;
+    margin: 5% 8 12% 15%;
+  }
+
+  .profilepic {
+    margin: 5% 8% 5% 5%;
   }
 }
