@@ -7,7 +7,7 @@ body {
   min-width: 90%;
   background-image: url("../images/slate_bkgrnd_1280x905.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat; */
   color: #999999;
   margin: .9% 1.5% .8% 1.5%;
   border: 10px solid #4d4d4d;       /*dark grey*/
@@ -15,10 +15,11 @@ body {
 }
            /* ------   Heading section ------   */
 .grad {
-  background: -webkit-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.97)); /*Safari 5.1-6*/
-  background: -o-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.97)); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(rgba(31,104,153,.25),rgba(75,83,49,.97)); /*Fx 3.6-15*/
-  background: linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Standard*/
+  background: DarkOliveGreen;
+  background: -webkit-linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Fx 3.6-15*/
+  background: linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Standard */
   border-radius: 7px;
 }
 
@@ -136,7 +137,7 @@ p a {                       /*links within paragraphs*/
 
 @media (min-width: 650px) {
   .maindiv {
-    margin: 2.5 3% 2.5% 3%;
+    margin: 2.5% 3% 2.5% 3%;
     min-height: 80%;
   }
 
@@ -153,7 +154,7 @@ p a {                       /*links within paragraphs*/
 
   .nav {
     width: 40%;
-    margin: 5% 8 12% 15%;
+    margin: 5% 8% 12% 15%;
   }
 
   .profilepic {
