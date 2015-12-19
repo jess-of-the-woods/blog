@@ -104,23 +104,22 @@ p {
 h3, h4, h5 {
   color: #999999;
   margin: 0 0 2% 3%;
-  /*float: right;*/
 }
-
-/*button {
-  color: #c79588;
-  background: #072f39;  /*medium grey/purple*/
-/*  opacity: .8; 
-} */
 
 p a {                       /*links within paragraphs*/
   color: #e3e3e8;           /*light grey*/
   font-weight: bold;
 }
 
-td img {
-  height: 15%;
-  margin-left: 40%
+.blog_img_div {
+  margin-left: 10%; 
+}
+
+.blog_img {
+  margin: 5px 5px 5px 5px;
+  vertical-align: middle;
+  height: 350px;
+  max-width: 400px;
 }
 
 #home a {                   /*home button*/
