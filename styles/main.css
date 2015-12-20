@@ -2,45 +2,7 @@ body {
   background-image: url("../images/linen_bkgrnd.jpg");
 }
 
-.maindiv {
-  position: absolute;
-  min-width: 90%;
-  background-image: url("../images/slate_bkgrnd_1280x905.jpg");
-  background-size: cover;
-  /*background-repeat: no-repeat; */
-  color: #999999;
-  margin: .9% 1.5% .8% 1.5%;
-  border: 10px solid #4d4d4d;       /*dark grey*/
-  padding: 2%;
-}
-           /* ------   Heading section ------   */
-.grad {
-  background: DarkOliveGreen;
-  background: -webkit-linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Safari 5.1-6*/
-  background: -o-linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Fx 3.6-15*/
-  background: linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Standard */
-  border-radius: 7px;
-}
-
-header h1 {
-  color: #adb89a;                 /*very light green*/
-  margin: 10px 3px 2px 2px;
-  opacity: .8;
-  padding: 12px 1px 12px 15px;
-}
-
-header h3 {
-  margin: 1% 2.5% 0 0;
-}
-
-.navpic{
-  clear: both;
-  display: inline;
-}
-
         /*  --------  links   ---------    */
-        /* --------              --------- */
 
 a {
   color: #b9b9b9;
@@ -59,15 +21,63 @@ a:active {                 /*links as you're clicking them*/
   border-color: #000000;   /*black*/
 }
 
+p {
+  color: #dcdcdc;
+  margin: 1.5% 5%;
+  font-size: 1.4em;
+}
+
+p a {                       /*links within paragraphs*/
+  color: #e3e3e8;           /*light grey*/
+  font-weight: bold;
+}
+
+.maindiv {
+  position: absolute;
+  min-width: 90%;
+  background-image: url("../images/slate_bkgrnd_1280x905.jpg");
+  background-size: cover;
+  /*background-repeat: no-repeat; */
+  color: #999999;
+  margin: .9% 1.5% .8% 1.5%;
+  border: 7px solid #4d4d4d;       /*dark grey*/
+  padding: 2%;
+}
+
+           /* ------   Heading section ------   */
+
+h3, h4, h5 {
+  color: #999999;
+  margin: 0 0 2% 3%;
+}
+
+header h1 {
+  color: #adb89a;        /* very light green */
+  margin: 10px 3px 2px 2px;
+  opacity: .8;
+  padding: 12px 1px 12px 15px;
+}
+
+header h3 {
+  margin: 1% 2.5% 0 0;
+}
+
+.grad {
+  background: DarkOliveGreen;
+  background: -webkit-linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Fx 3.6-15*/
+  background: linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Standard */
+  border-radius: 7px;
+}
+
+        /* ---------  index page nav --------- */
+
 .nav {
   margin: 9% 2% 4% 11%;
   width: 80%;
   position: relative;
   float: left;
-}
-
-.nav ul {
-  list-style-type: none;
 }
 
 .nav a {
@@ -83,6 +93,10 @@ a:active {                 /*links as you're clicking them*/
   margin: 1% 0 1% 0;
 }
 
+.nav ul {
+  list-style-type: none;
+}
+
 .profilepic {
   position: relative;
   float: right;
@@ -92,29 +106,28 @@ a:active {                 /*links as you're clicking them*/
   max-width: 32%
 }
 
+.navpic{
+  clear: both;
+  display: inline;
+}
+
+
+    /* ----------  home button  -------- */
+
+#home a {                   
+  background: #323232;
+  opacity: .9;
+  border: 2px gray solid;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 3px 0 9px 9px;
+}
+
 .blog-nav {
   margin: 4% 0 4% 4%;
 }
 
-p {
-  color: #dcdcdc;
-  margin: 1.5% 5%;
-  font-size: 1.4em;
-}
-
-h3, h4, h5 {
-  color: #999999;
-  margin: 0 0 2% 3%;
-}
-
-p a {                       /*links within paragraphs*/
-  color: #e3e3e8;           /*light grey*/
-  font-weight: bold;
-}
-
-.blog_img_div {
-  margin-left: 10%; 
-}
+       /* -------- wireframe images  --------  */
 
 .blog_img {
   margin: 5px 5px 5px 5px;
@@ -123,13 +136,10 @@ p a {                       /*links within paragraphs*/
   max-width: 400px;
 }
 
-#home a {                   /*home button*/
-  background: #323232;
-  opacity: .9;
-  border: 2px gray solid;
-  border-radius: 5px;
-  padding: 7px;
-  margin: 3px 0 9px 9px;
+      /* --------  div around wireframe images  --------  */
+
+.blog_img_div {                 
+  margin-left: 10%; 
 }
 
           /* --------media queries --------- */
