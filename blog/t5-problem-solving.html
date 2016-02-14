@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Problem Solving</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="maindiv">
+    <nav id="home">
+      <a href="blog-index.html" title="">Blog</a>
+    </nav>
+    <div class="row">
+      <header class="eight columns">
+        <h1 class="grad">Problem Solving</h1>
+      </header>
+    </div>
+    <p>16 February 2016</p>
+    <h3>Tell your non-tech friend a story about a time you..</h3>
+    <h4>1. Got blocked on a simple problem</h4>
+    <p>I was working on the FizzBuzz challenge as part of the exercises for Chapter 2 in Eloquent JavaScript. It requires you to write a program which prints out the numbers from 0 to 100, but if the number is divisible by 3 to output "Fizz", and if by 5 then output "Buzz". If it is divisible by both then print "FizzBuzz".</p>
+    <p>I tried running the code in the browser console to see what the output was. And then adjusted the code, then tried running it again many times. I also asked for help and one of my cohort member made a suggestion which I will detail below.</p>
+    <p>It felt frustrating during the process of trying things again & again when they wouldn't work. I didn't feel out of my depth as I had during my time in the last few weeks working with Karearea cohort so it felt really good to be working on a problem that wasn't too far beyond me. And it felt great to have the realisation of what I needed to do to fix the problem.</p>
+    <p>I learnt from this process that <a target="blank" href="jsbin.com">jsbin.com</a> is a really good resource. I also learnt to use <a target="blank" href="https://gist.github.com/">Gist</a> on github.com which is a cool way of sharing snippets of code with others in a way that they can make comments on it. Gist also highlights parts of your code, based on functionality which can make it a lot easier to read and understand. Especially if you're not the one that wrote the code. Also that sharing and describing the problem you're having can sometimes be enough to get you unstuck. To have a realisation about what you need to do in your code to achieve the functionality you want.</p>
+    <h4>2. Solved a problem in an elegant way</h4>
+    <p>After asking for help on the above problem in the Slack channel for our cohort, one of the other students suggested pasting it into jsbin.com which is a debugger which can find errors in your code. I did this and fixed some syntax errors. Then I realised that I had the order of my 'conditional' statements in the wrong order. I had been checking for divisibility by 3 and then 5, and only afterwards checking for divisibility by both. This means that if either of those conditions were met, then it would just skip over the part that checks for both conditions. I solved it by re-ordering the statements so that it first checks for divisibility by both and then for divisibility by each number individually.</p>
+    <h4>Reflect on how confident you feel using the problem solving techniques and process:</h4>
+    <p>I don't think I've really got my head around using pseudocode very well yet. Although I think I kind of tried whilst working on the 3rd exercise for Eloquent JavaScript Chapter 2. I think that I'm starting to think in a more systematic way about the logic of a program and the control  flow though which I guess would be helped by starting to pseudocode before starting.</p>
+    <p>I'm pretty good at just trying things and testing whether they work in the browser (including the console).</p>
+    <p>The Rubber Ducky method of debugging is something that I have found very useful. What it means is basically explaining your code, line by line, to a rubber ducky sitting on your desk. And carefully explaining what each line does can often help you clarify in your mind what is happening. Either in that line, in that function, or the program as a whole. At least as helpful is to do this same process to a person. Even if they don't know much about programming, you can explain going back to basics to try and help them understand and by doing so you can often have realisations yourself. Sometimes that you actually don't understand very well what is happening. Or the opposite.</p>
+    <p>I am feeling good about asking my peers for help at this point. It doesn't feel like folks are way ahead of me and Hihi cohort seem really helpful and friendly. I have been helped a great deal from others advice and extra sets of eyes/brains.</p>
+    <h4>.map, .filter & .reduce</h4>
+    <p>Map is a method on arrays which will pass each item in an array into the function that you pass to it, and then output the new transformed items into a new array.</p>
+    <p>Filter is another array method. It works similarly to map, but will filter the items in an array to include some items based on rules defined in the function that you pass to filter.</p>
+    <p>Reduce is another array method. In my understanding it takes a function and then transforms each array item down to a single value by whatever transformations are specified in the function it is passed. In a video I watched, it was described as the 'multi-tool' of a functional programmers toolkit.</p>
+    <br>
+    <br>
+    <br>
+  </div>
+</body>
+</html>
+
+
+
