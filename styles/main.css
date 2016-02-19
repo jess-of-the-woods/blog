@@ -96,11 +96,13 @@ header h3 {
   padding: 7px;
   border-radius: 5px;
   margin: 1% 0 1% 0;
+  transition: opacity .75s ease-out, background-color 1.5s ease-in, transform 1.5s;
 }
 
 .nav a:hover {
-  opacity: .86;
-  transition: opacity 1.5s ease-out;
+  background-color: #464653;
+  opacity: .89;
+  transform: scale(1.02);
 }
 
 .nav ul {
@@ -114,11 +116,13 @@ header h3 {
   margin: 4% 5% 4% 2%;
   opacity: .86;
   max-width: 32%
+  
 }
 
 .profilepic:hover {
   opacity: .98;
-  transition: opacity 2s ease-in;
+  transform: scale(1.01);
+  transition: opacity .75s ease-out, transform 1.5s ease-out;
 }
 
 .navpic{
