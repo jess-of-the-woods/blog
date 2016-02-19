@@ -71,6 +71,11 @@ header h3 {
   border-radius: 7px;
 }
 
+.grad:hover {
+  opacity: .99;
+  transition: opacity 1.5s ease-in;
+}
+
         /* ---------  index page nav --------- */
 
 .nav {
@@ -93,6 +98,11 @@ header h3 {
   margin: 1% 0 1% 0;
 }
 
+.nav a:hover {
+  opacity: .86;
+  transition: opacity 1.5s ease-out;
+}
+
 .nav ul {
   list-style-type: none;
 }
@@ -104,6 +114,11 @@ header h3 {
   margin: 4% 5% 4% 2%;
   opacity: .86;
   max-width: 32%
+}
+
+.profilepic:hover {
+  opacity: .98;
+  transition: opacity 2s ease-in;
 }
 
 .navpic{
