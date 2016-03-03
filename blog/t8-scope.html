@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Scope</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="maindiv">
+    <nav id="home">
+      <a href="blog-index.html" title="">Blog</a>
+    </nav>
+    <div class="row">
+      <header class="eight columns">
+        <h1 class="grad">Scope</h1>
+      </header>
+    </div>
+    <p></p>
+    <h4>What 'Scope' is, and how it works in JavaScript</h4>
+    <p>The idea of scope is something that is relevant in regards to variables. It concerns where those variables that have been defined in your code are accessible from. It makes sense that there are some parts of your code, where if you define a variable within them, that they will not be accessible from outside of that section. If they were to be accessible from anywhere, you would need to be very careful that each variable has a unique name, and in a large program with a lot of code, this can be difficult. To come up with unique names for parts of the program can create more work when logically they could be called the same thing. For this reason we have 'local' scope, and 'global' scope and in turn, global & local variables. The only thing in JavaScript which creates a local scope is a function and in this JavaScript differs from some other programming languages.</p>
+    <p>JavaScript's approach to scoping is called 'lexical scoping', aka 'static scoping'. This is in contrast to dynamic scoping. Lexical scoping is where a function creates its own scope. A variable defined within that function is able to referenced or 'called' from within that function, or from any function that is within it (a sub function). But is not able to be called from outside the function.</p>
+    <br>
+    <br>
+    <br>
+  </div>
+</body>
+</html>
