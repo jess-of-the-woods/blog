@@ -1,25 +1,38 @@
+        /* body styles */
+
 body {
   background-image: url("../images/linen_bkgrnd.jpg");
 }
 
-        /*  --------  links   ---------    */
+        /********* links ********/
 
 a {
   color: #b9b9b9;
   text-decoration: none;
 }
 
-a:hover {
-  color: #d4d4db;              /*light purple*/
-  background: #505060;       /*medium grey/purple*/
-  opacity: .7;
+          /******* links inside paragraphs *******/
+
+p a {
+  color: #e3e3e8;           /*light grey*/
+  font-weight: bold;
 }
 
-a:active {                 /*links as you're clicking them*/
-  color: #000000;          /*black*/ 
-  background: #999999;     /*light / medium grey*/
-  border-color: #000000;   /*black*/
-}
+/*a:hover {
+  color: #d4d4db;              /*light purple
+  background: #505060;       /*medium grey/purple
+  opacity: .7;
+} */
+
+          /******* links as you're clicking them *******/
+
+/*a:active {                 
+  color: #000000;          black 
+  background: #999999;     /*light / medium grey */
+/*  border-color: #000000;   /*black*/
+/*} */
+
+          /******* paragraphs *******/
 
 p {
   color: #dcdcdc;
@@ -27,8 +40,15 @@ p {
   font-size: 1.4em;
 }
 
-p a {                       /*links within paragraphs*/
-  color: #e3e3e8;           /*light grey*/
+          /******* list items within ordered lists ********/
+
+ol li {
+  color: #dcdcdc;
+  margin: 1.5% 5%;
+  font-size: 1.4em;
+}
+
+.bold {
   font-weight: bold;
 }
 
@@ -44,7 +64,7 @@ p a {                       /*links within paragraphs*/
   padding: 2%;
 }
 
-           /* ------   Heading section ------   */
+           /********* Header section **********/
 
 h3, h4, h5 {
   color: #999999;
@@ -62,6 +82,8 @@ header h3 {
   margin: 1% 2.5% 0 0;
 }
 
+         /********** Header Gradient *********/
+
 .grad {
   background: DarkOliveGreen;
   background: -webkit-linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Safari 5.1-6*/
@@ -69,6 +91,7 @@ header h3 {
   background: -moz-linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Fx 3.6-15*/
   background: linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Standard */
   border-radius: 7px;
+  box-shadow: 5px 5px 10px #34282c;
 }
 
 .grad:hover {
@@ -76,12 +99,14 @@ header h3 {
   transition: opacity 1.5s ease-in;
 }
 
+      /******** div surrounding profilepic & nav ********/
 
-.bold {
-  font-weight: bold;
+.navpic{
+  clear: both;
+  display: inline;
 }
 
-        /* ---------  index page nav --------- */
+        /********* index nav ************/
 
 .nav {
   margin: 9% 2% 4% 11%;
@@ -102,6 +127,7 @@ header h3 {
   border-radius: 5px;
   margin: 1% 0 1% 0;
   transition: opacity .75s ease-out, background-color 1.5s ease-in, transform 1.5s;
+  box-shadow: 5px 5px 10px #34282c;
 }
 
 .nav a:hover {
@@ -114,14 +140,15 @@ header h3 {
   list-style-type: none;
 }
 
+      /********** profile picture **********/
+
 .profilepic {
   position: relative;
   float: right;
   border: 3px gray solid;
   margin: 4% 5% 4% 2%;
   opacity: .86;
-  max-width: 32%
-  
+  max-width: 32%;
 }
 
 .profilepic:hover {
@@ -130,13 +157,7 @@ header h3 {
   transition: opacity .75s ease-out, transform 1.5s ease-in;
 }
 
-.navpic{
-  clear: both;
-  display: inline;
-}
-
-
-    /* ----------  home button  -------- */
+      /************  home button ************/
 
 #home a {                   
   background: #323232;
@@ -147,11 +168,18 @@ header h3 {
   margin: 3px 0 9px 9px;
 }
 
-.blog-nav {
-  margin: 4% 0 4% 4%;
-}
+      /*********** blog-index.html ************/
 
-       /* -------- wireframe images  --------  */
+/*.blog-nav {
+  margin: 4% 0 4% 4%;
+}*/
+
+      /*********** div around wireframe images ************/
+
+.blog_img_div {                 
+  margin-left: 10%; 
+}
+      /*********** wireframe images *************/
 
 .blog_img {
   margin: 5px 5px 5px 5px;
@@ -160,14 +188,9 @@ header h3 {
   max-width: 400px;
 }
 
-      /* --------  div around wireframe images  --------  */
-
-.blog_img_div {                 
-  margin-left: 10%; 
-}
-
+          /***********************************/
           /* --------media queries --------- */
-          /* --------              --------- */
+          /***********************************/
 
 @media (min-width: 650px) {
   .maindiv {
