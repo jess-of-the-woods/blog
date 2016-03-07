@@ -11,10 +11,32 @@ a {
   text-decoration: none;
 }
 
+          /******* paragraphs *******/
+
+p {
+  color: #dcdcdc;
+  margin: 1.5% 5%;
+  font-size: 1.4em;
+}
+
           /******* links inside paragraphs *******/
 
 p a {
   color: #e3e3e8;           /*light grey*/
+  font-weight: bold;
+}
+
+          /******* list items within ordered lists ********/
+
+ol li {
+  color: #dcdcdc;
+  margin: 1.5% 5%;
+  font-size: 1.4em;
+}
+
+          /********** bold class ***********/
+
+.bold {
   font-weight: bold;
 }
 
@@ -32,25 +54,7 @@ p a {
 /*  border-color: #000000;   /*black*/
 /*} */
 
-          /******* paragraphs *******/
-
-p {
-  color: #dcdcdc;
-  margin: 1.5% 5%;
-  font-size: 1.4em;
-}
-
-          /******* list items within ordered lists ********/
-
-ol li {
-  color: #dcdcdc;
-  margin: 1.5% 5%;
-  font-size: 1.4em;
-}
-
-.bold {
-  font-weight: bold;
-}
+          /************ main div ***********/
 
 .maindiv {
   position: absolute;
@@ -82,7 +86,7 @@ header h3 {
   margin: 1% 2.5% 0 0;
 }
 
-         /********** Header Gradient *********/
+         /********** header gradient *********/
 
 .grad {
   background: DarkOliveGreen;
@@ -93,6 +97,8 @@ header h3 {
   border-radius: 7px;
   box-shadow: 5px 5px 10px #34282c;
 }
+
+          /********** gradient hover ***********/
 
 .grad:hover {
   opacity: .99;
@@ -140,7 +146,7 @@ header h3 {
   list-style-type: none;
 }
 
-      /********** profile picture **********/
+          /********** profile picture **********/
 
 .profilepic {
   position: relative;
@@ -157,7 +163,7 @@ header h3 {
   transition: opacity .75s ease-out, transform 1.5s ease-in;
 }
 
-      /************  home button ************/
+          /************  home button ************/
 
 #home a {                   
   background: #323232;
@@ -174,12 +180,12 @@ header h3 {
   margin: 4% 0 4% 4%;
 }*/
 
-      /*********** div around wireframe images ************/
+          /*********** div around wireframe images ************/
 
 .blog_img_div {                 
   margin-left: 10%; 
 }
-      /*********** wireframe images *************/
+          /*********** wireframe images *************/
 
 .blog_img {
   margin: 5px 5px 5px 5px;
@@ -188,9 +194,11 @@ header h3 {
   max-width: 400px;
 }
 
-          /***********************************/
-          /* --------media queries --------- */
-          /***********************************/
+                      /***********************************/
+                      /* --------media queries --------- */
+                      /***********************************/
+
+            /********** styles for minimum width 650px ***********/
 
 @media (min-width: 650px) {
   .maindiv {
@@ -206,6 +214,8 @@ header h3 {
     max-width: 20%;
   }
 }
+
+            /********** styles for minimum width 1100px ***********/
 
 @media (min-width: 1100px) {
 
