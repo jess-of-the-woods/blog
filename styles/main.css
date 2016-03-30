@@ -96,6 +96,7 @@ header h3 {
   background: linear-gradient(rgba(31,104,153,.25), rgba(75,83,49,.97)); /*Standard */
   border-radius: 7px;
   box-shadow: 5px 5px 10px #34282c;
+  transition: opacity .75s ease-out, background-color 1.5s ease-in, transform 1.5s;
 }
 
           /********** gradient hover ***********/
@@ -155,6 +156,7 @@ header h3 {
   margin: 4% 5% 4% 2%;
   opacity: .86;
   max-width: 32%;
+  transition: opacity .75s ease-out, transform 1.5s;
 }
 
 .profilepic:hover {
