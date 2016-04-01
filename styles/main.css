@@ -60,13 +60,10 @@ ol li {
   position: absolute;
   min-width: 90%;
   background: url("../images/slate_bkgrnd_1280x905.jpg") no-repeat center center fixed;
-/* background-size: cover; 
-*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*background-repeat: no-repeat; */
   color: #999999;
   margin: .9% 1.5% .8% 1.5%;
   border: 7px solid #4d4d4d;       /*dark grey*/
