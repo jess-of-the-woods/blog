@@ -59,7 +59,12 @@ ol li {
 .maindiv {
   position: absolute;
   min-width: 90%;
-  background-image: url("../images/slate_bkgrnd_1280x905.jpg");
+  background: url("../images/slate_bkgrnd_1280x905.jpg") no-repeat center center fixed;
+/* background-size: cover; 
+*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   /*background-repeat: no-repeat; */
   color: #999999;
