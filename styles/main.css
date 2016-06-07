@@ -15,7 +15,7 @@ a {
 
 p {
   color: #dcdcdc;
-  margin: 1.5% 5%;
+  margin: 5% 5%;
   font-size: 1.4em;
 }
 
@@ -25,7 +25,7 @@ p a {
   color: #e3e3e8;           /*light grey*/
   font-weight: bold;
   /*text-shadow: 4px 4px #cc66ff;*/
-  text-shadow: 0 0 2.5px #cc66ff, 0 0 5px #0000FF;
+  /*text-shadow: 0 0 2.5px #cc66ff, 0 0 5px #0000FF;*/
   }
 
           /******* list items within ordered lists ********/
@@ -69,7 +69,7 @@ ol li {
   color: #999999;
   margin: .5% 1.5% .8% 1.5%;
   border: 7px solid #4d4d4d;       /*dark grey*/
-  border-radius: 13px;
+  border-radius: 7px;
   padding: 2%;
 }
 
@@ -82,7 +82,7 @@ h3, h4, h5 {
 
 header h1 {
   color: #adb89a;        /* very light green */
-  margin: 10px 3px 2px 2px;
+  margin: 10px 3px 30px 2px;
   opacity: .8;
   padding: 12px 1px 12px 15px;
 }
@@ -160,7 +160,7 @@ header h3 {
   border: 3px gray solid;
   margin: 4% 5% 4% 2%;
   opacity: .86;
-  border-radius: 15px;
+  border-radius: 3px;
   max-width: 32%;
   transition: opacity .75s ease-out, transform 1.5s;
 }
