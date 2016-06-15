@@ -209,9 +209,9 @@ header h3 {
             /********** styles for minimum width 650px ***********/
 
 @media (min-width: 650px) {
-  p {
+  /*p {
     font-size: 1.3em !important;
-  }
+  }*/
 
   .maindiv {
     margin: 1.5% 2% 1.5% 2%;
