@@ -19,7 +19,7 @@ a:hover {
 p {
   color: #dcdcdc;
   margin: 5% 5%;
-  font-size: 2.4em !important;
+  font-size: 1.65em !important;
 }
 
           /******* links inside paragraphs *******/
@@ -115,6 +115,18 @@ header h3 {
   display: inline;
 }
 
+#parent {
+  display: flex;
+}
+
+#wide {
+  flex: 1;
+}
+
+#narrow {
+  width: 25%;
+}
+
         /********* index nav ************/
 
 .nav {
@@ -151,14 +163,15 @@ header h3 {
 
           /********** profile picture **********/
 
-.profilepic {
-  position: relative;
-  float: right;
-  border: 3px gray solid;
-  margin: 4% 5% 4% 2%;
+#picDiv {
+  margin-right: 10%;
+}
+
+#imgStyles {
+  margin-right: 20%;
   opacity: .86;
+  max-width: 70%;
   border-radius: 3px;
-  max-width: 32%;
   transition: opacity .75s ease-out, transform 1.5s;
 }
 
@@ -166,6 +179,10 @@ header h3 {
   opacity: .98;
   transform: scale(1.01);
   transition: opacity .75s ease-out, transform 1.5s ease-in;
+}
+
+.logo {
+  max-width: 10%;
 }
 
           /************  home button ************/
@@ -176,7 +193,7 @@ header h3 {
   border: 2px gray solid;
   border-radius: 5px;
   padding: 7px;
-  margin: 3px 0 9px 9px;
+  margin: 3px 0 40px 9px;
 }
 
       /*********** blog-index.html ************/
